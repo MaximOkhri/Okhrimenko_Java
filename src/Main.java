@@ -17,22 +17,19 @@ public class Main {
                 number_test.first_test();
                 System.out.print("Введите 'y' для продолжения, 'n' чтобы выйти:");
                 Scanner next_choice_scanner = new Scanner(System.in);
-                String new_choose = next_choice_scanner.nextLine();
-                choice = new_choose;
+                choice = next_choice_scanner.nextLine();
             } else if (choose_test == 2) {
                 Second_test name_test = new Second_test();
                 name_test.second_test();
                 System.out.print("Введите 'y' для продолжения, 'n' чтобы выйти:");
                 Scanner next_choice_scanner = new Scanner(System.in);
-                String new_choose = next_choice_scanner.nextLine();
-                choice = new_choose;
+                choice = next_choice_scanner.nextLine();
             } else if (choose_test == 3) {
                 Third_test array_test = new Third_test();
                 array_test.third_test();
                 System.out.print("\nВведите 'y' для продолжения, 'n' чтобы выйти:");
                 Scanner next_choice_scanner = new Scanner(System.in);
-                String new_choose = next_choice_scanner.nextLine();
-                choice = new_choose;
+                choice = next_choice_scanner.nextLine();
             }
         }
     }
